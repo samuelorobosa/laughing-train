@@ -58,6 +58,7 @@ img{
     padding: 2%;
     margin-top: 25px;
     flex-shrink: 1;
+    box-shadow: 15px 29px 44px -33px rgba(201,187,201,1);
 }
 
 .text-center{
