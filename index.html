@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food Recipe UI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/b2c6544cf0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body onload="startTime()">
+
+    <main>
+            <div class="container">
+
+<!-- FIRST PHONE -->
+                  <div class="first-phone">
+                <div class="top-menu"> 
+                    <div id="time"></div>  
+                    <div class="notifications">
+                    <i class="fas fa-signal"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+            </div>
+                <div class="bars">
+                    <p class="first-bar"></p>
+                    <p class="second-bar"></p>
+                </div>
+                <h3> What would you<br>like 2 cook?</h3>
+                <div class="input-group">
+                <i class="fas fa-search search-button"></i>
+                    <input type="text" placeholder="Search for your query" class="roboto">
+                    <i class="fas fa-sliders-h slider"></i>
+                    </div>
+                    <h3> Latest Recipes </h3>
+                     <div class="cards text-center">
+                      <div class="first-image-card">
+                        <img src="assets/img/burger-chef_hq_zquvff.png" height="100px">
+                        <h4>Special Burger</h4>
+                        <p><small>2 Lessons | 3h 12m </small></p>
+                        <div><i class="far fa-heart"></i> <i class="fas fa-long-arrow-alt-up rotate"></i></div>
+
+                      </div>
+                      <div class="second-image-card">
+                        <img src="assets/img/john-milk_fmyh5d.png" height="100px">
+                        <h4>Filter Coffee</h4>
+                        <p><small>5 Lessons | 6h 12m</small></p>
+                        <div><i class="far fa-heart white"></i> <i class="fas fa-long-arrow-alt-up white rotate"></i></div>
+
+
+                    </div>
+                    <div class="third-image-card">
+                        <img src="assets/img/john-milk_fmyh5d.png" height="100px">
+                        <h4>Filter Coffee</h4>
+                        <p><small>5 Lessons | 6h 12m</small></p>
+                        <div><i class="far fa-heart white"></i> <i class="fas fa-long-arrow-alt-up white rotate"></i></div>
+
+
+                    </div>
+                     </div>
+                    <h3> Recipe of the week</h3>
+                    <div class="bottom-card0">
+                        <p id="tag">4.9</p>
+                        <img src="./assets/img/chef-cheese_hpszne.png" height="100px" class="bottom-card-image">
+
+                    </div>
+                  </div> 
+<!-- FIRST PHONE ENDS HERE -->
+<!-- Second phone -->
+            <div class="second-phone">
+                <div class="top-menu" style="padding: 2%;"> 
+                    <div id="time2"></div>  
+                    <div class="notifications">
+                    <i class="fas fa-signal"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-battery-full"></i>
+               </div>
+            </div>
+                <div class="image"><img src="assets/img/burger-chef_hq_zquvff.png" height="250px"></div>
+                
+                <div class="bottom-card">
+            <h4 class="difficulty"> <span>Difficulty:Easy✌</span>   <span>17 mins</span></h4>
+
+            <div class="wrapper">   
+                <div><img src="./assets/img/cooking_1_bzjook.png" height="30px"><div><strong>Cooking</strong><br><small>(10 mins)</small></div>  </div>
+        
+                <div><img src="./assets/img/baking_1_ny27tk.png" height="30px"> <div><strong>Baking </strong> <br><small>(2 mins)</small></div>
+            </div>
+                <div>
+                    <img src="./assets/img/resting_vn2tym.png" height="30px">
+                <div><strong>Resting</strong><br><small>(5 mins)</small></div>
+            </div>
+        </div>
+
+            <h3> Utensils</h3>
+            <p style="font-size: 0.8rem; font-weight:600; letter-spacing: 0.2px; "><small>Cutting board, knife, 2 bowls, fine grater,cooking spoon<br>
+                Frying pan,blender,colander,paper,towels, tongs
+            </small></p>
+
+     </div>
+     <div class="second-bottom">
+        <h3>Nutrition Per Serving</h3>
+        <div class="wrapper2">
+        <div> <h3>Cal</h3>
+            <small>433</small>
+        </div>
+
+        <div class="bod-right"></div>
+
+        <div> <h3 >Protein</h3>
+            <small>10 G</small>
+        </div>
+
+        <div class="bod-right"></div>
+
+        <div> <h3>Fat</h3>
+            <small>39 G</small>
+        </div>
+
+        <div class="bod-right"></div>
+        <div> <h3>Carb</h3>
+            <small>20 G</small>
+        </div>
+    </div>
+</div>
+            </div>
+<!-- Second phone ends here-->
+<!-- Third Phone -->
+            <div class="third-phone">
+                <div class="top-menu" style="padding: 2%; margin-top: 5%;"> 
+                    <div id="time3"></div>  
+                    <div class="notifications">
+                        <i class="fas fa-signal"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-battery-full"></i>
+                    </div>
+                </div>     
+                <p class="text-center" style="margin-top: 37%;"> 
+                    <img src="assets/img/hands-hq_mfvhje.png" height="350px">
+                </p>
+            <div class="bottom text-center">
+                <h3> Kitchen Story</h3>
+                <small class="roboto text-center" style="margin: 2%;"> You don't have any story, learn a new recipe and say it</small>
+                
+                
+                    <h3 class="plus_sign"> <i class="fas fa-plus"></i></h3>
+            </div>
+            </div>
+<!-- Third Phone ends here-->
+            </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
